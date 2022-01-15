@@ -1,0 +1,223 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac2f46442c60406fafb54fc65f57bab9, type: 3}
+  m_Name: Settings
+  m_EditorClassIdentifier: 
+  Preloader:
+    MainSceneIndex: 1
+    MinTimeInSeconds: 0
+    WaitFotContinue: 0
+  System:
+    Version: 1.0.0
+    Language: 1
+    TargetFrameRate: 60
+    VSyncCount: 0
+    CanSleep: 0
+    SaveInterval: 5
+  Debug:
+    IsEverythingFree: 0
+    ClearAtStart: 0
+    UseStabData: 0
+    Money: 0
+    Levels: 
+    UnlocksUpgradeValue: 7
+    SpawnSpeedUpgradeValue: 0
+    SpawnLevelUpgradeValue: 0
+    IncomeMultiplierUpgradeValue: 0
+    DailyBonusStreak: 0
+    DailyBonusDay: 0
+    LastOnlineTimeStamp: 0
+    DiscountPercent: 0
+  Audio:
+    Volume: 1
+    Music: {fileID: 11400000, guid: 538a91be4dd0e684fa03b65b2afd5e7d, type: 2}
+    Tap: {fileID: 11400000, guid: 91e0eb48f16f7d64fa874ea7f23915bd, type: 2}
+    MoneyReward: {fileID: 11400000, guid: 56105d6f4b6d91d4485d2d5826b5ec11, type: 2}
+    MoneySpend: {fileID: 11400000, guid: 3eaf1e0571cf4e747917890730358079, type: 2}
+    Spawn: {fileID: 11400000, guid: 29c2ec707e605e144a5c394cf2c65dac, type: 2}
+    Merge: {fileID: 11400000, guid: 9ca6e9b4e8fa3a94db0439f2355fc2c0, type: 2}
+    Move: {fileID: 11400000, guid: b293b1fc22b4bc242be4a2b42ea56b6c, type: 2}
+  Ui:
+    CloseOpenedWindowIfOpenedAgain: 1
+  Meta:
+    DailyBonus:
+      AdsMultiplier: 2
+      HoldAtLastDay: 1
+      Days: 84030000100e0000201c000040380000c0a8000080510100
+    Field:
+      Levels:
+      - Title: Red
+        TitleRu: "\u041A\u0440\u0430\u0441\u043D\u044B\u0439"
+        Image: {fileID: 21300000, guid: 84d8307699be2d347acd9a62fc657048, type: 3}
+      - Title: Green
+        TitleRu: "\u0417\u0435\u043B\u0435\u043D\u044B\u0439"
+        Image: {fileID: 21300000, guid: 2733eec74dedb08449da1ef12df0069b, type: 3}
+      - Title: Blue
+        TitleRu: "\u0421\u0438\u043D\u0438\u0439"
+        Image: {fileID: 21300000, guid: 957ef16a487023043966781c74f9dd8c, type: 3}
+      - Title: Yellow
+        TitleRu: "\u0416\u0435\u043B\u0442\u044B\u0439"
+        Image: {fileID: 21300000, guid: 5630134d66da3f34bbc1f7ff6e9a5692, type: 3}
+      - Title: Black
+        TitleRu: "\u0427\u0435\u0440\u043D\u044B\u0439"
+        Image: {fileID: 21300000, guid: ce635d0fd1bdb5047afa8ad8feb1386f, type: 3}
+      - Title: Mage
+        TitleRu: "\u041C\u0430\u0433"
+        Image: {fileID: 21300000, guid: 31512258cdee7454b879092878304b59, type: 3}
+      - Title: Little
+        TitleRu: "\u041A\u0440\u043E\u0445\u0430"
+        Image: {fileID: 21300000, guid: 0fb64fd163422ee45be236e2d532453e, type: 3}
+      - Title: Snow
+        TitleRu: "\u0421\u043D\u0435\u0433"
+        Image: {fileID: 21300000, guid: 4a8d3257705f3904d93664a9d0c591a9, type: 3}
+      - Title: Tree
+        TitleRu: "\u0414\u0435\u0440\u0435\u0432\u043E"
+        Image: {fileID: 21300000, guid: d9fc8154e85a10b4698e9f277b573c64, type: 3}
+      - Title: Light
+        TitleRu: "\u0421\u0432\u0435\u0442"
+        Image: {fileID: 21300000, guid: c369455d5f86b9d42973eb096c98c30a, type: 3}
+      - Title: Lightning
+        TitleRu: "\u041C\u043E\u043B\u043D\u0438\u044F"
+        Image: {fileID: 21300000, guid: c72ccd13df6cd114ea1f0d9aa1ecf80c, type: 3}
+      - Title: Black hole
+        TitleRu: "\u0427\u0435\u0440\u043D\u0430\u044F \u0434\u044B\u0440\u0430"
+        Image: {fileID: 21300000, guid: 4c4127e0c4fa0d54e9d3a3e90ab9a018, type: 3}
+      - Title: Knight
+        TitleRu: "\u0420\u044B\u0446\u0430\u0440\u044C"
+        Image: {fileID: 21300000, guid: 8eb9996ef6d58474abdc8725c7a54e0e, type: 3}
+      - Title: King
+        TitleRu: "\u041A\u043E\u0440\u043E\u043B\u044C"
+        Image: {fileID: 21300000, guid: 8ba7dd898e7dc7547a0c81abb1544b67, type: 3}
+      - Title: Stone
+        TitleRu: "\u041A\u0430\u043C\u0435\u043D\u044C"
+        Image: {fileID: 21300000, guid: 86039aafddc40804bac9e46e9484b2ed, type: 3}
+      - Title: Gold
+        TitleRu: "\u0417\u043E\u043B\u043E\u0442\u043E"
+        Image: {fileID: 21300000, guid: 1880657385f7a284686548815f8dba69, type: 3}
+      - Title: Fire
+        TitleRu: "\u041E\u0433\u043E\u043D\u044C"
+        Image: {fileID: 21300000, guid: 65a4f7fa4c428794c846826f7c0fd334, type: 3}
+      - Title: Ice
+        TitleRu: "\u041B\u0451\u0434"
+        Image: {fileID: 21300000, guid: e391bf172af68b04891bab4bb010a7fc, type: 3}
+      - Title: Ice king
+        TitleRu: "\u041B\u0435\u0434\u044F\u043D\u043E\u0439 \u043A\u043E\u0440\u043E\u043B\u044C"
+        Image: {fileID: 21300000, guid: d695f920db6bd644e94bbbc99d97b853, type: 3}
+      - Title: Skeleton
+        TitleRu: "\u0421\u043A\u0435\u043B\u0435\u0442"
+        Image: {fileID: 21300000, guid: 92333a5380f5d72439a473e1b3af03f4, type: 3}
+      - Title: Darkness
+        TitleRu: "\u0422\u044C\u043C\u0430"
+        Image: {fileID: 21300000, guid: bef1077e408c1cb4da15427179196155, type: 3}
+      - Title: Assassin
+        TitleRu: "\u0410\u0441\u0441\u0430\u0441\u0441\u0438\u043D"
+        Image: {fileID: 21300000, guid: 51858d1290a746d4b9d308a3b6aa83a0, type: 3}
+      - Title: Alchemist
+        TitleRu: "\u0410\u043B\u0445\u0438\u043C\u0438\u043A"
+        Image: {fileID: 21300000, guid: ad71505a21ba5304488b1cecb017ce63, type: 3}
+      - Title: Cactus
+        TitleRu: "\u041A\u0430\u043A\u0442\u0443\u0441"
+        Image: {fileID: 21300000, guid: 0a9b0519cc533d848a56d7cda4bb8fb4, type: 3}
+      - Title: Sand
+        TitleRu: "\u041F\u0435\u0441\u043E\u043A"
+        Image: {fileID: 21300000, guid: 57ef8778d685af2418e5054fa7b46619, type: 3}
+      - Title: Angel
+        TitleRu: "\u0410\u043D\u0433\u0435\u043B"
+        Image: {fileID: 21300000, guid: e46990d9f2f440a4d8f292efed406091, type: 3}
+      - Title: Demon
+        TitleRu: "\u0414\u0435\u043C\u043E\u043D"
+        Image: {fileID: 21300000, guid: b222b6b6528871245903582e65d38fc0, type: 3}
+      - Title: Cyclopus
+        TitleRu: "\u0426\u0438\u043A\u043B\u043E\u043F"
+        Image: {fileID: 21300000, guid: 4332204b1514504459cd317d2416f115, type: 3}
+      - Title: Mummy
+        TitleRu: "\u041C\u0443\u043C\u0438\u044F"
+        Image: {fileID: 21300000, guid: e510f77579248c344b2c0238bf11af53, type: 3}
+      - Title: Diamond
+        TitleRu: "\u0410\u043B\u043C\u0430\u0437"
+        Image: {fileID: 21300000, guid: 76ea89a9580607847a935a8c95223d18, type: 3}
+      - Title: Coral
+        TitleRu: "\u041A\u043E\u0440\u0430\u043B"
+        Image: {fileID: 21300000, guid: 0d7352784894dbe43b374aa4ac49c955, type: 3}
+      - Title: Cook
+        TitleRu: "\u041F\u043E\u0432\u0430\u0440"
+        Image: {fileID: 21300000, guid: ae3d27e4c34aa3a4ab5c26651aac00e2, type: 3}
+      - Title: Crab
+        TitleRu: "\u041A\u0440\u0430\u0431"
+        Image: {fileID: 21300000, guid: 50ebe30863d68eb4fb249acb24f001d9, type: 3}
+      - Title: Flower
+        TitleRu: "\u0426\u0432\u0435\u0442\u043E\u0447\u0435\u043A"
+        Image: {fileID: 21300000, guid: d3c2749ce76be5d4696016ce3a4a99f6, type: 3}
+      - Title: Mushroom
+        TitleRu: "\u041C\u0443\u0445\u043E\u043C\u043E\u0440"
+        Image: {fileID: 21300000, guid: 5c885e29176a37641829282569eab94e, type: 3}
+      - Title: Electron
+        TitleRu: "\u042D\u043B\u0435\u043A\u0442\u0440\u043E\u043D"
+        Image: {fileID: 21300000, guid: 26b137b641e65cb42ac71e02480a1ddf, type: 3}
+      - Title: Obsidian
+        TitleRu: "\u041E\u0431\u0441\u0438\u0434\u0438\u0430\u043D"
+        Image: {fileID: 21300000, guid: a66f54eaee63b704d905e5b4c79c7de3, type: 3}
+      - Title: Vine
+        TitleRu: "\u041B\u043E\u0437\u0430"
+        Image: {fileID: 21300000, guid: 55711449166888f42abba3243da62a24, type: 3}
+      - Title: Tiger shark
+        TitleRu: "\u0422\u0438\u0433\u0440\u043E\u0432\u0430\u044F \u0430\u043A\u0443\u043B\u0430"
+        Image: {fileID: 21300000, guid: 341f267406ff05142b96a7241348e1f4, type: 3}
+      - Title: Nurse
+        TitleRu: "\u041C\u0435\u0434\u0441\u0435\u0441\u0442\u0440\u0430"
+        Image: {fileID: 21300000, guid: 680bb5f4402243742b07862fe060b116, type: 3}
+      - Title: Sky
+        TitleRu: "\u0421\u043A\u0430\u0439"
+        Image: {fileID: 21300000, guid: d18eb917e69be69419ff04e6da60dfa7, type: 3}
+      - Title: Mud king
+        TitleRu: "\u0413\u0440\u044F\u0437\u0435\u0432\u043E\u0439 \u043A\u043E\u0440\u043E\u043B\u044C"
+        Image: {fileID: 21300000, guid: e0d8d2b5cc17ca44e91f3dec5d2f32a6, type: 3}
+      - Title: Lanternfish
+        TitleRu: "\u0420\u044B\u0431\u0430 \u0444\u043E\u043D\u0430\u0440\u044C"
+        Image: {fileID: 21300000, guid: ff4ac776864351943a54a55377bd9e4c, type: 3}
+      - Title: Merchant
+        TitleRu: "\u0422\u043E\u0440\u0433\u043E\u0432\u0435\u0446"
+        Image: {fileID: 21300000, guid: 49390d9f205e9f64990c9fbe623a6bf7, type: 3}
+      - Title: Wildman
+        TitleRu: "\u0414\u0438\u043A\u0430\u0440\u044C"
+        Image: {fileID: 21300000, guid: 56e41fdb9aa412d478b94f29438c863e, type: 3}
+      MaxLevel: 0
+      SlotsAmount: 20
+      UnlockedSlotsAmount: 12
+      IsSwapEnabled: 1
+      SpawnInterval: 6
+      AccelerateSpawnByClick: 0.5
+    InstantBonusesForAds:
+      DiscountBonusIncrement: 1
+      SpawnLevelBonus: 3
+      SpawnAmount: 4
+      MoneyIncomeInSeconds: 900
+    Gifts:
+      Duration: 60
+      SpawnSpeedMultiplier: 2
+      SpawnLevelBonus: 1
+      StartSpawnFromLevel: 5
+      SpawnChance: 0.02
+    Money:
+      PayInterval: 1
+      MaxDiscount: 50
+    Offline:
+      AdsMultiplier: 2
+      MaxDuration: 28800
+      MinDurationToShowWindow: 60
+    Upgrade:
+      a: 200
+      r: 3.1
+      s: 0.1
+      MaxSpawnSpeedUpgradeLevel: 40
+      MaxIncomeMultiplierUpgradeLevel: 40
+      IncomeMultiplierPerUpgrade: 10

@@ -1,0 +1,77 @@
+<html>
+<head>
+    <style type="text/css">
+        body {
+            font-size: 10pt;
+            font-family: verdana, sans, arial, sans-serif;
+        }
+    </style>
+
+    <script type="text/javascript" src="js/timeline.js"></script> 
+    
+    <link rel="stylesheet" type="text/css" href="js/timeline.css">
+</head>
+    
+<body>
+
+<form id="jsonFile" name="jsonFile" enctype="multipart/form-data" method="post">
+  <fieldset>
+     <input type='file' id='fileinput'>
+     <input type='button' id='btnLoad' value='Load' onclick='loadFile();'>
+  </fieldset>
+</form>
+
+<script type="text/javascript">
+
+     function loadFile() {     
+        var input, file, fr;
+
+        if (typeof window.FileReader !== 'function') {
+          alert("The file API isn't supported on this browser yet.");
+          return;
+        }
+
+        input = document.getElementById('fileinput');
+        if (!input) {
+          alert("Um, couldn't find the fileinput element.");
+        }
+        else if (!input.files) {
+          alert("This browser doesn't seem to support the `files` property of file inputs.");
+        }
+        else if (!input.files[0]) {
+          alert("Please select a file before clicking 'Load'");
+        }
+        else {
+          file = input.files[0];
+          fr = new FileReader();
+          fr.onload = receivedText;
+          fr.readAsText(file);
+        }  
+     } 
+    
+     function receivedText(e) {
+       let lines = e.target.result;
+       var data = JSON.parse(lines); 
+       
+        var options = {
+            'width':  '100%',
+            'height': '95%',
+            'editable': false, 
+            'style': 'box',
+            //'cluster': true,      
+            //'clusterMaxItems': 5,
+            'showCustomTime': true
+        };
+
+        timeline = new links.Timeline(document.getElementById('mytimeline'), options);
+        timeline.draw(data);         
+      }  
+
+</script>
+
+<div id="mytimeline"></div>
+
+</body>
+
+
+</html>

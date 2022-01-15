@@ -1,0 +1,22 @@
+{
+	"name": "Smr.Engine.Editor",
+	"references": [
+		"Smr.Engine",
+		"MessagePack",
+		"MessagePack.Annotations",
+		"Unity.Addressables",
+		"UnityEditor.UI",
+		"UnityEngine.UI"
+	],
+	"includePlatforms": [
+		"Editor"
+	],
+	"excludePlatforms": [],
+	"allowUnsafeCode": false,
+	"overrideReferences": false,
+	"precompiledReferences": [],
+	"autoReferenced": true,
+	"defineConstraints": [],
+	"versionDefines": [],
+	"noEngineReferences": false
+}
